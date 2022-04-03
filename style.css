@@ -25,7 +25,8 @@ h1 {
 	margin: 0.75rem 0;
 }
 
-.form_control input {
+.form_control input,
+button {
 	padding: 0.25rem;
 	width: 100%;
 }
@@ -41,4 +42,13 @@ h1 {
 .result {
 	display: flex;
 	justify-content: space-between;
+}
+
+#total-tip {
+	margin-bottom: 3em;
+
+}
+
+span {
+	font-size: 20px;
 }
